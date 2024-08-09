@@ -1,0 +1,44 @@
+[1.137s] Invoking command in '/home/mobot/ROS2/workspace/build/ps5_controller': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mobot/ROS2/workspace/build/ps5_controller/build
+[1.540s] running develop
+[1.540s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.540s] !!
+[1.541s] 
+[1.541s]         ********************************************************************************
+[1.541s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.541s]         Instead, use pypa/build, pypa/installer or other
+[1.541s]         standards-based tools.
+[1.541s] 
+[1.541s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.541s]         ********************************************************************************
+[1.541s] 
+[1.541s] !!
+[1.541s]   easy_install.initialize_options(self)
+[1.797s] Removing /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5-controller.egg-link (link to .)
+[1.881s] Invoked command in '/home/mobot/ROS2/workspace/build/ps5_controller' returned '0': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mobot/ROS2/workspace/build/ps5_controller/build
+[1.883s] Invoking command in '/home/mobot/ROS2/workspace/src/ps5_controller': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps5_controller build --build-base /home/mobot/ROS2/workspace/build/ps5_controller/build install --record /home/mobot/ROS2/workspace/build/ps5_controller/install.log --single-version-externally-managed install_data --force
+[2.228s] running egg_info
+[2.252s] writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO
+[2.252s] writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt
+[2.252s] writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt
+[2.253s] writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt
+[2.302s] reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+[2.304s] writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+[2.304s] running build
+[2.304s] running build_py
+[2.304s] running install
+[2.313s] running install_lib
+[2.338s] creating /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller
+[2.338s] copying /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller/ps5_publisher_node.py -> /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller
+[2.338s] copying /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller/__init__.py -> /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller
+[2.339s] byte-compiling /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py to ps5_publisher_node.cpython-312.pyc
+[2.340s] byte-compiling /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/__init__.py to __init__.cpython-312.pyc
+[2.340s] running install_data
+[2.340s] copying resource/ps5_controller -> /home/mobot/ROS2/workspace/install/ps5_controller/share/ament_index/resource_index/packages
+[2.341s] copying package.xml -> /home/mobot/ROS2/workspace/install/ps5_controller/share/ps5_controller
+[2.341s] running install_egg_info
+[2.367s] Copying ../../build/ps5_controller/ps5_controller.egg-info to /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info
+[2.368s] running install_scripts
+[2.540s] Installing ps5_publisher_node script to /home/mobot/ROS2/workspace/install/ps5_controller/lib/ps5_controller
+[2.541s] writing list of installed files to '/home/mobot/ROS2/workspace/build/ps5_controller/install.log'
+[2.615s] Invoked command in '/home/mobot/ROS2/workspace/src/ps5_controller' returned '0': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps5_controller build --build-base /home/mobot/ROS2/workspace/build/ps5_controller/build install --record /home/mobot/ROS2/workspace/build/ps5_controller/install.log --single-version-externally-managed install_data --force

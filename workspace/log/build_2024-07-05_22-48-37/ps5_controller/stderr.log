@@ -1,0 +1,5 @@
+  File "/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py", line 5
+    from /home/mobot/ROS2/workspace/src/custom_msg_types/msg import Ps5ButtonState
+         ^
+SyntaxError: invalid syntax
+

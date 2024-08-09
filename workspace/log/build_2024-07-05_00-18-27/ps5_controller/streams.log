@@ -1,0 +1,14 @@
+[1.143s] Invoking command in '/home/mobot/ROS2/workspace/src/ps5_controller': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps5_controller build --build-base /home/mobot/ROS2/workspace/build/ps5_controller/build install --record /home/mobot/ROS2/workspace/build/ps5_controller/install.log --single-version-externally-managed install_data
+[1.489s] running egg_info
+[1.513s] writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt
+[1.513s] writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt
+[1.514s] writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt
+[1.514s] writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt
+[1.564s] reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+[1.565s] writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+[1.565s] running build
+[1.565s] running build_py
+[1.565s] running install
+[1.566s] error: error in setup.cfg: command 'install' has no such option 'user_base'
+[1.618s] Invoked command in '/home/mobot/ROS2/workspace/src/ps5_controller' returned '1': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps5_controller build --build-base /home/mobot/ROS2/workspace/build/ps5_controller/build install --record /home/mobot/ROS2/workspace/build/ps5_controller/install.log --single-version-externally-managed install_data

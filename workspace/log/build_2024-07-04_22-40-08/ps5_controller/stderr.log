@@ -1,0 +1,5 @@
+  File "/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py", line 17
+    rise Exception('No DualSense Controller available.')
+         ^^^^^^^^^
+SyntaxError: invalid syntax
+

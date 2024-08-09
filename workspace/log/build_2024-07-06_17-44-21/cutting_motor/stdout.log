@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/cutting_motor/cutting_motor.egg-info
+writing ../../build/cutting_motor/cutting_motor.egg-info/PKG-INFO
+writing dependency_links to ../../build/cutting_motor/cutting_motor.egg-info/dependency_links.txt
+writing entry points to ../../build/cutting_motor/cutting_motor.egg-info/entry_points.txt
+writing requirements to ../../build/cutting_motor/cutting_motor.egg-info/requires.txt
+writing top-level names to ../../build/cutting_motor/cutting_motor.egg-info/top_level.txt
+writing manifest file '../../build/cutting_motor/cutting_motor.egg-info/SOURCES.txt'
+reading manifest file '../../build/cutting_motor/cutting_motor.egg-info/SOURCES.txt'
+writing manifest file '../../build/cutting_motor/cutting_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mobot/ROS2/workspace/build/cutting_motor/build
+creating /home/mobot/ROS2/workspace/build/cutting_motor/build/lib
+creating /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade
+copying mower_blade/mower_blade.py -> /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade
+copying mower_blade/__init__.py -> /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade
+running install
+running install_lib
+creating /home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages/mower_blade
+copying /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade/mower_blade.py -> /home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages/mower_blade
+copying /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade/__init__.py -> /home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages/mower_blade
+byte-compiling /home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages/mower_blade/mower_blade.py to mower_blade.cpython-312.pyc
+byte-compiling /home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages/mower_blade/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/mobot/ROS2/workspace/install/cutting_motor/share/ament_index
+creating /home/mobot/ROS2/workspace/install/cutting_motor/share/ament_index/resource_index
+creating /home/mobot/ROS2/workspace/install/cutting_motor/share/ament_index/resource_index/packages
+copying resource/cutting_motor -> /home/mobot/ROS2/workspace/install/cutting_motor/share/ament_index/resource_index/packages
+copying package.xml -> /home/mobot/ROS2/workspace/install/cutting_motor/share/cutting_motor
+running install_egg_info
+Copying ../../build/cutting_motor/cutting_motor.egg-info to /home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages/cutting_motor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mower_blade_node script to /home/mobot/ROS2/workspace/install/cutting_motor/lib/cutting_motor
+writing list of installed files to '/home/mobot/ROS2/workspace/build/cutting_motor/install.log'

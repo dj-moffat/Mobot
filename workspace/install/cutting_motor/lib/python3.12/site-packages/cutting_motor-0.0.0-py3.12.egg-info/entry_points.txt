@@ -1,0 +1,2 @@
+[console_scripts]
+mower_blade_node = mower_blade.mower_blade_node:main

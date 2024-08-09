@@ -1,0 +1,18 @@
+[1.627s] Invoking command in '/home/mobot/ROS2/workspace/src/mower_blade': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/cutting_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cutting_motor build --build-base /home/mobot/ROS2/workspace/build/cutting_motor/build install --record /home/mobot/ROS2/workspace/build/cutting_motor/install.log --single-version-externally-managed install_data
+[2.067s] running egg_info
+[2.096s] writing ../../build/cutting_motor/mower_blade.egg-info/PKG-INFO
+[2.097s] writing dependency_links to ../../build/cutting_motor/mower_blade.egg-info/dependency_links.txt
+[2.097s] writing entry points to ../../build/cutting_motor/mower_blade.egg-info/entry_points.txt
+[2.097s] writing requirements to ../../build/cutting_motor/mower_blade.egg-info/requires.txt
+[2.097s] writing top-level names to ../../build/cutting_motor/mower_blade.egg-info/top_level.txt
+[2.157s] reading manifest file '../../build/cutting_motor/mower_blade.egg-info/SOURCES.txt'
+[2.159s] writing manifest file '../../build/cutting_motor/mower_blade.egg-info/SOURCES.txt'
+[2.159s] running build
+[2.159s] running build_py
+[2.159s] copying mower_blade/mower_blade_node.py -> /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade
+[2.159s] copying mower_blade/__init__.py -> /home/mobot/ROS2/workspace/build/cutting_motor/build/lib/mower_blade
+[2.160s] running install
+[2.168s] running install_lib
+[2.198s] running install_data
+[2.201s] error: can't copy 'resource/mower_blade': doesn't exist or not a regular file
+[2.269s] Invoked command in '/home/mobot/ROS2/workspace/src/mower_blade' returned '1': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/cutting_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/cutting_motor/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cutting_motor build --build-base /home/mobot/ROS2/workspace/build/cutting_motor/build install --record /home/mobot/ROS2/workspace/build/cutting_motor/install.log --single-version-externally-managed install_data

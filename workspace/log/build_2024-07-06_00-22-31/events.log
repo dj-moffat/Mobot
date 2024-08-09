@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (custom_msg_types) JobQueued: {'identifier': 'custom_msg_types', 'dependencies': OrderedDict()}
+[0.000641] (ps5_controller) JobQueued: {'identifier': 'ps5_controller', 'dependencies': OrderedDict({'custom_msg_types': '/home/mobot/ROS2/workspace/install/custom_msg_types'})}
+[0.000803] (custom_msg_types) JobStarted: {'identifier': 'custom_msg_types'}
+[0.099706] (-) TimerEvent: {}
+[0.200029] (-) TimerEvent: {}
+[0.300359] (-) TimerEvent: {}
+[0.400688] (-) TimerEvent: {}
+[0.500997] (-) TimerEvent: {}
+[0.601311] (-) TimerEvent: {}
+[0.701618] (-) TimerEvent: {}
+[0.801915] (-) TimerEvent: {}
+[0.902217] (-) TimerEvent: {}
+[1.002525] (-) TimerEvent: {}
+[1.102828] (-) TimerEvent: {}
+[1.190797] (custom_msg_types) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/custom_msg_types', 'build', '--build-base', '/home/mobot/ROS2/workspace/build/custom_msg_types/build', 'install', '--record', '/home/mobot/ROS2/workspace/build/custom_msg_types/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mobot/ROS2/workspace/src/custom_msg_types', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 53744 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mobot', 'OLDPWD': '/home/mobot/ROS2/workspace/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mobot/ROS2/workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/mobot/ROS2/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mobot/ROS2/workspace/install/ps5_controller:/home/mobot/ROS2/workspace/install/custom_msg_types:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mobot/ROS2/workspace/build/custom_msg_types', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 53744 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/workspace/build/custom_msg_types/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages:/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.202943] (-) TimerEvent: {}
+[1.303271] (-) TimerEvent: {}
+[1.403583] (-) TimerEvent: {}
+[1.503884] (-) TimerEvent: {}
+[1.575274] (custom_msg_types) StdoutLine: {'line': b'running egg_info\n'}
+[1.600843] (custom_msg_types) StdoutLine: {'line': b'writing ../../build/custom_msg_types/custom_msg_types.egg-info/PKG-INFO\n'}
+[1.601520] (custom_msg_types) StdoutLine: {'line': b'writing dependency_links to ../../build/custom_msg_types/custom_msg_types.egg-info/dependency_links.txt\n'}
+[1.601816] (custom_msg_types) StdoutLine: {'line': b'writing requirements to ../../build/custom_msg_types/custom_msg_types.egg-info/requires.txt\n'}
+[1.601971] (custom_msg_types) StdoutLine: {'line': b'writing top-level names to ../../build/custom_msg_types/custom_msg_types.egg-info/top_level.txt\n'}
+[1.603945] (-) TimerEvent: {}
+[1.656262] (custom_msg_types) StdoutLine: {'line': b"reading manifest file '../../build/custom_msg_types/custom_msg_types.egg-info/SOURCES.txt'\n"}
+[1.657324] (custom_msg_types) StdoutLine: {'line': b"writing manifest file '../../build/custom_msg_types/custom_msg_types.egg-info/SOURCES.txt'\n"}
+[1.657575] (custom_msg_types) StdoutLine: {'line': b'running build\n'}
+[1.657696] (custom_msg_types) StdoutLine: {'line': b'running build_py\n'}
+[1.657813] (custom_msg_types) StdoutLine: {'line': b'copying msg/__init__.py -> /home/mobot/ROS2/workspace/build/custom_msg_types/build/lib/msg\n'}
+[1.658098] (custom_msg_types) StdoutLine: {'line': b'copying custom_msg_types/__init__.py -> /home/mobot/ROS2/workspace/build/custom_msg_types/build/lib/custom_msg_types\n'}
+[1.658499] (custom_msg_types) StdoutLine: {'line': b'running install\n'}
+[1.666241] (custom_msg_types) StdoutLine: {'line': b'running install_lib\n'}
+[1.692740] (custom_msg_types) StdoutLine: {'line': b'running install_data\n'}
+[1.692956] (custom_msg_types) StdoutLine: {'line': b'copying resource/custom_msg_types -> /home/mobot/ROS2/workspace/install/custom_msg_types/share/ament_index/resource_index/packages\n'}
+[1.693079] (custom_msg_types) StdoutLine: {'line': b'copying package.xml -> /home/mobot/ROS2/workspace/install/custom_msg_types/share/custom_msg_types\n'}
+[1.693256] (custom_msg_types) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.704021] (-) TimerEvent: {}
+[1.719497] (custom_msg_types) StdoutLine: {'line': b"removing '/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages/custom_msg_types-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.719911] (custom_msg_types) StdoutLine: {'line': b'Copying ../../build/custom_msg_types/custom_msg_types.egg-info to /home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages/custom_msg_types-0.0.0-py3.12.egg-info\n'}
+[1.720928] (custom_msg_types) StdoutLine: {'line': b'running install_scripts\n'}
+[1.804126] (-) TimerEvent: {}
+[1.889937] (custom_msg_types) StdoutLine: {'line': b"writing list of installed files to '/home/mobot/ROS2/workspace/build/custom_msg_types/install.log'\n"}
+[1.904221] (-) TimerEvent: {}
+[1.966302] (custom_msg_types) CommandEnded: {'returncode': 0}
+[1.978495] (custom_msg_types) JobEnded: {'identifier': 'custom_msg_types', 'rc': 0}
+[1.979872] (ps5_controller) JobStarted: {'identifier': 'ps5_controller'}
+[2.004339] (-) TimerEvent: {}
+[2.104665] (-) TimerEvent: {}
+[2.204973] (-) TimerEvent: {}
+[2.305297] (-) TimerEvent: {}
+[2.405717] (-) TimerEvent: {}
+[2.506064] (-) TimerEvent: {}
+[2.606350] (-) TimerEvent: {}
+[2.706656] (-) TimerEvent: {}
+[2.806955] (-) TimerEvent: {}
+[2.907256] (-) TimerEvent: {}
+[3.007543] (-) TimerEvent: {}
+[3.107867] (-) TimerEvent: {}
+[3.169126] (ps5_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ps5_controller', 'build', '--build-base', '/home/mobot/ROS2/workspace/build/ps5_controller/build', 'install', '--record', '/home/mobot/ROS2/workspace/build/ps5_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mobot/ROS2/workspace/src/ps5_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 53744 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mobot', 'OLDPWD': '/home/mobot/ROS2/workspace/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '(ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mobot/ROS2/workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/mobot/ROS2/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mobot/ROS2/workspace/install/custom_msg_types:/home/mobot/ROS2/workspace/install/ps5_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mobot/ROS2/workspace/build/ps5_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 53744 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.207954] (-) TimerEvent: {}
+[3.308246] (-) TimerEvent: {}
+[3.408570] (-) TimerEvent: {}
+[3.508865] (-) TimerEvent: {}
+[3.551672] (ps5_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.577634] (ps5_controller) StdoutLine: {'line': b'writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO\n'}
+[3.578254] (ps5_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt\n'}
+[3.578513] (ps5_controller) StdoutLine: {'line': b'writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt\n'}
+[3.578777] (ps5_controller) StdoutLine: {'line': b'writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt\n'}
+[3.578943] (ps5_controller) StdoutLine: {'line': b'writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt\n'}
+[3.608944] (-) TimerEvent: {}
+[3.632832] (ps5_controller) StdoutLine: {'line': b"reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'\n"}
+[3.633934] (ps5_controller) StdoutLine: {'line': b"writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'\n"}
+[3.634151] (ps5_controller) StdoutLine: {'line': b'running build\n'}
+[3.634278] (ps5_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.634453] (ps5_controller) StdoutLine: {'line': b'copying ps5_controller/test.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller\n'}
+[3.634740] (ps5_controller) StdoutLine: {'line': b'copying ps5_controller/ps5_publisher_node.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller\n'}
+[3.634957] (ps5_controller) StdoutLine: {'line': b'copying ps5_controller/__init__.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller\n'}
+[3.635120] (ps5_controller) StdoutLine: {'line': b'copying ps5_controller/OLD_ps5_publisher_node.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller\n'}
+[3.635525] (ps5_controller) StdoutLine: {'line': b'running install\n'}
+[3.643259] (ps5_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.670406] (ps5_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.670671] (ps5_controller) StdoutLine: {'line': b'copying resource/ps5_controller -> /home/mobot/ROS2/workspace/install/ps5_controller/share/ament_index/resource_index/packages\n'}
+[3.670804] (ps5_controller) StdoutLine: {'line': b'copying package.xml -> /home/mobot/ROS2/workspace/install/ps5_controller/share/ps5_controller\n'}
+[3.670985] (ps5_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.697270] (ps5_controller) StdoutLine: {'line': b"removing '/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.697778] (ps5_controller) StdoutLine: {'line': b'Copying ../../build/ps5_controller/ps5_controller.egg-info to /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info\n'}
+[3.698941] (ps5_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.709016] (-) TimerEvent: {}
+[3.809266] (-) TimerEvent: {}
+[3.869872] (ps5_controller) StdoutLine: {'line': b'Installing ps5_publisher_node script to /home/mobot/ROS2/workspace/install/ps5_controller/lib/ps5_controller\n'}
+[3.870449] (ps5_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mobot/ROS2/workspace/build/ps5_controller/install.log'\n"}
+[3.909365] (-) TimerEvent: {}
+[3.947070] (ps5_controller) CommandEnded: {'returncode': 0}
+[3.954821] (ps5_controller) JobEnded: {'identifier': 'ps5_controller', 'rc': 0}
+[3.955783] (-) EventReactorShutdown: {}

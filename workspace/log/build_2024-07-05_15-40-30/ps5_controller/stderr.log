@@ -1,0 +1,5 @@
+  File "/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py", line 8
+    button_presses = {304: 'X', 305: 'circle', 306: 'abc', 307: 'triangle', 308: 'square', 309: 'R1', 310: 'L1', 311: 'R1', 312: '>
+                                                                                                                                 ^
+SyntaxError: unterminated string literal (detected at line 8)
+

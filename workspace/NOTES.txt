@@ -1,0 +1,25 @@
+
+def calculate_soc(voltage):
+    if voltage >= 42:
+        return 100
+    elif voltage <= 28:
+        return 0
+    else:
+        # Linear interpolation between 4.2V and 3.0V
+        return (voltage - 3.0) / (4.2 - 3.0) * 100
+        
+        
+
+	voltage = current voltage reading
+	
+	
+	
+	(39 - 28) / (42 - 28) * 100
+	
+	39 = current voltage
+	28 = cut-off voltage
+	42 = charged voltage
+   100 = turn it to a percentage
+   
+   
+   30.8V remaining voltage = 20% remaining battery

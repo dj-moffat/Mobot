@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt
+writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt
+writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt
+reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ps5_controller/ps5_publisher_node.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller
+running install
+running install_lib
+copying /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller/ps5_publisher_node.py -> /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller
+byte-compiling /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py to ps5_publisher_node.cpython-312.pyc
+  File "/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py", line 22
+    def publish_button_states(self):
+SyntaxError: expected 'except' or 'finally' block
+
+running install_data
+running install_egg_info
+removing '/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/ps5_controller/ps5_controller.egg-info to /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ps5_publisher_node script to /home/mobot/ROS2/workspace/install/ps5_controller/lib/ps5_controller
+writing list of installed files to '/home/mobot/ROS2/workspace/build/ps5_controller/install.log'

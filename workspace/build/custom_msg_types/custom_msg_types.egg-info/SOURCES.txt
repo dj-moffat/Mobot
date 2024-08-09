@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/custom_msg_types/custom_msg_types.egg-info/PKG-INFO
+../../build/custom_msg_types/custom_msg_types.egg-info/SOURCES.txt
+../../build/custom_msg_types/custom_msg_types.egg-info/dependency_links.txt
+../../build/custom_msg_types/custom_msg_types.egg-info/requires.txt
+../../build/custom_msg_types/custom_msg_types.egg-info/top_level.txt
+../../build/custom_msg_types/custom_msg_types.egg-info/zip-safe
+custom_msg_types/__init__.py
+msg/__init__.py
+resource/custom_msg_types
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

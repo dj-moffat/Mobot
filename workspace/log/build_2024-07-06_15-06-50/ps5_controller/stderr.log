@@ -1,0 +1,5 @@
+  File "/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py", line 53
+    buttons = ['circle':0,'triangle':0,'square':0,'x':0}
+                                                       ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+

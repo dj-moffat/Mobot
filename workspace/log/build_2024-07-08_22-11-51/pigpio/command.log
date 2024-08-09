@@ -1,0 +1,6 @@
+Invoking command in '/home/mobot/ROS2/workspace/build/pigpio': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake /home/mobot/ROS2/workspace/pigpio -DCMAKE_INSTALL_PREFIX=/home/mobot/ROS2/workspace/install/pigpio
+Invoked command in '/home/mobot/ROS2/workspace/build/pigpio' returned '0': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake /home/mobot/ROS2/workspace/pigpio -DCMAKE_INSTALL_PREFIX=/home/mobot/ROS2/workspace/install/pigpio
+Invoking command in '/home/mobot/ROS2/workspace/build/pigpio': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --build /home/mobot/ROS2/workspace/build/pigpio -- -j4 -l4
+Invoked command in '/home/mobot/ROS2/workspace/build/pigpio' returned '0': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --build /home/mobot/ROS2/workspace/build/pigpio -- -j4 -l4
+Invoking command in '/home/mobot/ROS2/workspace/build/pigpio': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --install /home/mobot/ROS2/workspace/build/pigpio
+Invoked command in '/home/mobot/ROS2/workspace/build/pigpio' returned '0': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --install /home/mobot/ROS2/workspace/build/pigpio

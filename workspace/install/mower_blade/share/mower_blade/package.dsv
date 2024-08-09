@@ -1,0 +1,6 @@
+source;share/mower_blade/hook/pythonpath.ps1
+source;share/mower_blade/hook/pythonpath.dsv
+source;share/mower_blade/hook/pythonpath.sh
+source;share/mower_blade/hook/ament_prefix_path.ps1
+source;share/mower_blade/hook/ament_prefix_path.dsv
+source;share/mower_blade/hook/ament_prefix_path.sh

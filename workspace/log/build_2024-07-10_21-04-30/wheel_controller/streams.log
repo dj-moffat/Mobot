@@ -1,0 +1,27 @@
+[2.051s] Invoking command in '/home/mobot/ROS2/workspace/src/wheel_controller': PYTHONPATH=/home/mobot/ROS2/workspace/build/wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/wheel_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_controller build --build-base /home/mobot/ROS2/workspace/build/wheel_controller/build install --record /home/mobot/ROS2/workspace/build/wheel_controller/install.log --single-version-externally-managed install_data
+[2.523s] running egg_info
+[2.553s] writing ../../build/wheel_controller/wheel_controller.egg-info/PKG-INFO
+[2.554s] writing dependency_links to ../../build/wheel_controller/wheel_controller.egg-info/dependency_links.txt
+[2.554s] writing entry points to ../../build/wheel_controller/wheel_controller.egg-info/entry_points.txt
+[2.555s] writing requirements to ../../build/wheel_controller/wheel_controller.egg-info/requires.txt
+[2.555s] writing top-level names to ../../build/wheel_controller/wheel_controller.egg-info/top_level.txt
+[2.616s] reading manifest file '../../build/wheel_controller/wheel_controller.egg-info/SOURCES.txt'
+[2.619s] writing manifest file '../../build/wheel_controller/wheel_controller.egg-info/SOURCES.txt'
+[2.619s] running build
+[2.619s] running build_py
+[2.619s] copying wheel_controller/__init__.py -> /home/mobot/ROS2/workspace/build/wheel_controller/build/lib/wheel_controller
+[2.619s] copying wheel_controller/wheel_listener_node.py -> /home/mobot/ROS2/workspace/build/wheel_controller/build/lib/wheel_controller
+[2.619s] running install
+[2.627s] running install_lib
+[2.655s] copying /home/mobot/ROS2/workspace/build/wheel_controller/build/lib/wheel_controller/wheel_listener_node.py -> /home/mobot/ROS2/workspace/install/wheel_controller/lib/python3.12/site-packages/wheel_controller
+[2.657s] byte-compiling /home/mobot/ROS2/workspace/install/wheel_controller/lib/python3.12/site-packages/wheel_controller/wheel_listener_node.py to wheel_listener_node.cpython-312.pyc
+[2.659s] running install_data
+[2.660s] copying resource/wheel_controller -> /home/mobot/ROS2/workspace/install/wheel_controller/share/ament_index/resource_index/packages
+[2.661s] copying package.xml -> /home/mobot/ROS2/workspace/install/wheel_controller/share/wheel_controller
+[2.661s] running install_egg_info
+[2.693s] removing '/home/mobot/ROS2/workspace/install/wheel_controller/lib/python3.12/site-packages/wheel_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.695s] Copying ../../build/wheel_controller/wheel_controller.egg-info to /home/mobot/ROS2/workspace/install/wheel_controller/lib/python3.12/site-packages/wheel_controller-0.0.0-py3.12.egg-info
+[2.696s] running install_scripts
+[2.884s] Installing wheel_listener_node script to /home/mobot/ROS2/workspace/install/wheel_controller/lib/wheel_controller
+[2.885s] writing list of installed files to '/home/mobot/ROS2/workspace/build/wheel_controller/install.log'
+[2.995s] Invoked command in '/home/mobot/ROS2/workspace/src/wheel_controller' returned '0': PYTHONPATH=/home/mobot/ROS2/workspace/build/wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/wheel_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_controller build --build-base /home/mobot/ROS2/workspace/build/wheel_controller/build install --record /home/mobot/ROS2/workspace/build/wheel_controller/install.log --single-version-externally-managed install_data

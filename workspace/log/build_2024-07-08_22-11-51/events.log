@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000370] (blade_controller) JobQueued: {'identifier': 'blade_controller', 'dependencies': OrderedDict()}
+[0.000718] (pigpio) JobQueued: {'identifier': 'pigpio', 'dependencies': OrderedDict()}
+[0.000886] (ps5_controller) JobQueued: {'identifier': 'ps5_controller', 'dependencies': OrderedDict()}
+[0.001097] (blade_controller) JobStarted: {'identifier': 'blade_controller'}
+[0.011981] (pigpio) JobStarted: {'identifier': 'pigpio'}
+[0.016591] (ps5_controller) JobStarted: {'identifier': 'ps5_controller'}
+[0.099719] (-) TimerEvent: {}
+[0.200066] (-) TimerEvent: {}
+[0.300397] (-) TimerEvent: {}
+[0.374370] (pigpio) JobProgress: {'identifier': 'pigpio', 'progress': 'cmake'}
+[0.374881] (pigpio) Command: {'cmd': ['/usr/bin/cmake', '/home/mobot/ROS2/workspace/pigpio', '-DCMAKE_INSTALL_PREFIX=/home/mobot/ROS2/workspace/install/pigpio'], 'cwd': '/home/mobot/ROS2/workspace/build/pigpio', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 61570 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'HOME': '/home/mobot', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-944b7005-eea5-4246-bb41-f0c81cd79f29.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc0fffaad3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mobot/ROS2/workspace/build/pigpio', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 61570 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.400521] (-) TimerEvent: {}
+[0.419063] (pigpio) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.419421] (pigpio) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[0.419561] (pigpio) StderrLine: {'line': b'  CMake.\n'}
+[0.419657] (pigpio) StderrLine: {'line': b'\n'}
+[0.419772] (pigpio) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.419876] (pigpio) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.419966] (pigpio) StderrLine: {'line': b'\n'}
+[0.420049] (pigpio) StderrLine: {'line': b'\x1b[0m\n'}
+[0.500625] (-) TimerEvent: {}
+[0.601055] (-) TimerEvent: {}
+[0.618995] (pigpio) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.650577] (pigpio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701178] (-) TimerEvent: {}
+[0.801683] (-) TimerEvent: {}
+[0.826303] (pigpio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.842951] (pigpio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.843756] (pigpio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.845015] (pigpio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.848258] (pigpio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.902475] (-) TimerEvent: {}
+[1.002827] (-) TimerEvent: {}
+[1.027524] (pigpio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.027775] (pigpio) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.035364] (pigpio) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.035925] (pigpio) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (rt) does\n'}
+[1.036042] (pigpio) StderrLine: {'line': b'  not match the name of the calling package (RT).  This can lead to problems\n'}
+[1.036139] (pigpio) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[1.036230] (pigpio) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[1.036318] (pigpio) StdoutLine: {'line': b'-- Found rt: /usr/lib/aarch64-linux-gnu/librt.a  \n'}
+[1.037982] (pigpio) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.038126] (pigpio) StderrLine: {'line': b'  cmake/FindRT.cmake:28 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)\n'}
+[1.038223] (pigpio) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[1.038312] (pigpio) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.038421] (pigpio) StderrLine: {'line': b'\x1b[0m\n'}
+[1.042460] (pigpio) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[1.102937] (-) TimerEvent: {}
+[1.197571] (pigpio) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[1.199441] (pigpio) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[1.203294] (-) TimerEvent: {}
+[1.303734] (-) TimerEvent: {}
+[1.355890] (pigpio) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed\n'}
+[1.357461] (pigpio) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[1.403956] (-) TimerEvent: {}
+[1.504594] (-) TimerEvent: {}
+[1.516069] (pigpio) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[1.604714] (-) TimerEvent: {}
+[1.707463] (-) TimerEvent: {}
+[1.739432] (pigpio) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.762432] (pigpio) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.762693] (pigpio) StdoutLine: {'line': b'-- Build files have been written to: /home/mobot/ROS2/workspace/build/pigpio\n'}
+[1.769723] (pigpio) CommandEnded: {'returncode': 0}
+[1.770740] (pigpio) JobProgress: {'identifier': 'pigpio', 'progress': 'build'}
+[1.771562] (pigpio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mobot/ROS2/workspace/build/pigpio', '--', '-j4', '-l4'], 'cwd': '/home/mobot/ROS2/workspace/build/pigpio', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 61570 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'HOME': '/home/mobot', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-944b7005-eea5-4246-bb41-f0c81cd79f29.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc0fffaad3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mobot/ROS2/workspace/build/pigpio', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 61570 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.807631] (-) TimerEvent: {}
+[1.890421] (pigpio) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o\x1b[0m\n'}
+[1.910475] (-) TimerEvent: {}
+[1.912182] (pigpio) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/pigs.dir/pigs.c.o\x1b[0m\n'}
+[1.925604] (pigpio) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/pigpio.dir/pigpio.c.o\x1b[0m\n'}
+[1.928806] (pigpio) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/pigpiod_if2.dir/pigpiod_if2.c.o\x1b[0m\n'}
+[1.955863] (blade_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/blade_controller', 'build', '--build-base', '/home/mobot/ROS2/workspace/build/blade_controller/build', 'install', '--record', '/home/mobot/ROS2/workspace/build/blade_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mobot/ROS2/workspace/src/blade_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 61570 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'HOME': '/home/mobot', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-944b7005-eea5-4246-bb41-f0c81cd79f29.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc0fffaad3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mobot/ROS2/workspace/build/blade_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 61570 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/workspace/build/blade_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages:/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.993599] (ps5_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ps5_controller', 'build', '--build-base', '/home/mobot/ROS2/workspace/build/ps5_controller/build', 'install', '--record', '/home/mobot/ROS2/workspace/build/ps5_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mobot/ROS2/workspace/src/ps5_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 61570 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'HOME': '/home/mobot', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-944b7005-eea5-4246-bb41-f0c81cd79f29.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc0fffaad3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mobot/ROS2/workspace/build/ps5_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 61570 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/workspace/build/ps5_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages:/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.011402] (-) TimerEvent: {}
+[2.115472] (-) TimerEvent: {}
+[2.215958] (-) TimerEvent: {}
+[2.234724] (pigpio) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/pigs.dir/command.c.o\x1b[0m\n'}
+[2.316453] (-) TimerEvent: {}
+[2.418498] (-) TimerEvent: {}
+[2.467524] (pigpio) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/pigpiod_if.dir/command.c.o\x1b[0m\n'}
+[2.486482] (pigpio) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking C executable pigs\x1b[0m\n'}
+[2.520540] (-) TimerEvent: {}
+[2.607020] (pigpio) StdoutLine: {'line': b'[ 30%] Built target pigs\n'}
+[2.615510] (pigpio) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/pigpiod_if2.dir/command.c.o\x1b[0m\n'}
+[2.622464] (-) TimerEvent: {}
+[2.680251] (blade_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.695010] (pigpio) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o\x1b[0m\n'}
+[2.718167] (blade_controller) StdoutLine: {'line': b'writing ../../build/blade_controller/blade_controller.egg-info/PKG-INFO\n'}
+[2.720956] (blade_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/blade_controller/blade_controller.egg-info/dependency_links.txt\n'}
+[2.722565] (-) TimerEvent: {}
+[2.723655] (blade_controller) StdoutLine: {'line': b'writing entry points to ../../build/blade_controller/blade_controller.egg-info/entry_points.txt\n'}
+[2.725393] (blade_controller) StdoutLine: {'line': b'writing requirements to ../../build/blade_controller/blade_controller.egg-info/requires.txt\n'}
+[2.727433] (blade_controller) StdoutLine: {'line': b'writing top-level names to ../../build/blade_controller/blade_controller.egg-info/top_level.txt\n'}
+[2.736501] (pigpio) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libpigpiod_if.so\x1b[0m\n'}
+[2.813577] (ps5_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.821267] (blade_controller) StdoutLine: {'line': b"reading manifest file '../../build/blade_controller/blade_controller.egg-info/SOURCES.txt'\n"}
+[2.822709] (-) TimerEvent: {}
+[2.826471] (blade_controller) StdoutLine: {'line': b"writing manifest file '../../build/blade_controller/blade_controller.egg-info/SOURCES.txt'\n"}
+[2.829712] (blade_controller) StdoutLine: {'line': b'running build\n'}
+[2.830878] (blade_controller) StdoutLine: {'line': b'running build_py\n'}
+[2.833483] (blade_controller) StdoutLine: {'line': b'copying blade_controller/old_blade_listener_node.py -> /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller\n'}
+[2.833823] (blade_controller) StdoutLine: {'line': b'copying blade_controller/blade_listener_node.py -> /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller\n'}
+[2.837260] (blade_controller) StdoutLine: {'line': b'copying blade_controller/__init__.py -> /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller\n'}
+[2.837637] (blade_controller) StdoutLine: {'line': b'running install\n'}
+[2.855456] (blade_controller) StdoutLine: {'line': b'running install_lib\n'}
+[2.878782] (ps5_controller) StdoutLine: {'line': b'writing ../../build/ps5_controller/ps5_controller.egg-info/PKG-INFO\n'}
+[2.879887] (ps5_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/ps5_controller/ps5_controller.egg-info/dependency_links.txt\n'}
+[2.880388] (ps5_controller) StdoutLine: {'line': b'writing entry points to ../../build/ps5_controller/ps5_controller.egg-info/entry_points.txt\n'}
+[2.880901] (ps5_controller) StdoutLine: {'line': b'writing requirements to ../../build/ps5_controller/ps5_controller.egg-info/requires.txt\n'}
+[2.881034] (ps5_controller) StdoutLine: {'line': b'writing top-level names to ../../build/ps5_controller/ps5_controller.egg-info/top_level.txt\n'}
+[2.885159] (pigpio) StdoutLine: {'line': b'[ 43%] Built target pigpiod_if\n'}
+[2.921256] (pigpio) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/pig2vcd.dir/command.c.o\x1b[0m\n'}
+[2.924042] (-) TimerEvent: {}
+[2.943467] (pigpio) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libpigpiod_if2.so\x1b[0m\n'}
+[2.954480] (blade_controller) StdoutLine: {'line': b'copying /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller/old_blade_listener_node.py -> /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller\n'}
+[2.955306] (blade_controller) StdoutLine: {'line': b'copying /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller/blade_listener_node.py -> /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller\n'}
+[2.960474] (blade_controller) StdoutLine: {'line': b'byte-compiling /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller/old_blade_listener_node.py to old_blade_listener_node.cpython-312.pyc\n'}
+[2.964934] (blade_controller) StdoutLine: {'line': b'byte-compiling /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller/blade_listener_node.py to blade_listener_node.cpython-312.pyc\n'}
+[2.969789] (blade_controller) StdoutLine: {'line': b'running install_data\n'}
+[2.974549] (blade_controller) StdoutLine: {'line': b'copying resource/blade_controller -> /home/mobot/ROS2/workspace/install/blade_controller/share/ament_index/resource_index/packages\n'}
+[2.978569] (blade_controller) StdoutLine: {'line': b'copying package.xml -> /home/mobot/ROS2/workspace/install/blade_controller/share/blade_controller\n'}
+[2.978866] (blade_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.987101] (pigpio) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o\x1b[0m\n'}
+[3.023817] (blade_controller) StdoutLine: {'line': b"removing '/home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.024158] (-) TimerEvent: {}
+[3.027544] (blade_controller) StdoutLine: {'line': b'Copying ../../build/blade_controller/blade_controller.egg-info to /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller-0.0.0-py3.12.egg-info\n'}
+[3.029484] (blade_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.064439] (ps5_controller) StdoutLine: {'line': b"reading manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'\n"}
+[3.071546] (ps5_controller) StdoutLine: {'line': b"writing manifest file '../../build/ps5_controller/ps5_controller.egg-info/SOURCES.txt'\n"}
+[3.071828] (ps5_controller) StdoutLine: {'line': b'running build\n'}
+[3.071956] (ps5_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.072062] (ps5_controller) StdoutLine: {'line': b'copying ps5_controller/ps5_publisher_node.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller\n'}
+[3.078915] (ps5_controller) StdoutLine: {'line': b'copying ps5_controller/__init__.py -> /home/mobot/ROS2/workspace/build/ps5_controller/build/lib/ps5_controller\n'}
+[3.079245] (ps5_controller) StdoutLine: {'line': b'running install\n'}
+[3.097680] (ps5_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.127448] (-) TimerEvent: {}
+[3.134901] (pigpio) StdoutLine: {'line': b'[ 56%] Built target pigpiod_if2\n'}
+[3.174583] (ps5_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.182216] (ps5_controller) StdoutLine: {'line': b'copying resource/ps5_controller -> /home/mobot/ROS2/workspace/install/ps5_controller/share/ament_index/resource_index/packages\n'}
+[3.182532] (ps5_controller) StdoutLine: {'line': b'copying package.xml -> /home/mobot/ROS2/workspace/install/ps5_controller/share/ps5_controller\n'}
+[3.182659] (ps5_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.228460] (pigpio) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o\x1b[0m\n'}
+[3.228760] (-) TimerEvent: {}
+[3.263444] (pigpio) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C executable x_pigpiod_if\x1b[0m\n'}
+[3.278536] (ps5_controller) StdoutLine: {'line': b"removing '/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.279274] (ps5_controller) StdoutLine: {'line': b'Copying ../../build/ps5_controller/ps5_controller.egg-info to /home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller-0.0.0-py3.12.egg-info\n'}
+[3.287345] (ps5_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.321851] (pigpio) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C executable pig2vcd\x1b[0m\n'}
+[3.330501] (-) TimerEvent: {}
+[3.361576] (blade_controller) StdoutLine: {'line': b'Installing blade_listener_node script to /home/mobot/ROS2/workspace/install/blade_controller/lib/blade_controller\n'}
+[3.361964] (blade_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mobot/ROS2/workspace/build/blade_controller/install.log'\n"}
+[3.430661] (-) TimerEvent: {}
+[3.446646] (pigpio) StdoutLine: {'line': b'[ 69%] Built target x_pigpiod_if\n'}
+[3.472437] (pigpio) StdoutLine: {'line': b'[ 69%] Built target pig2vcd\n'}
+[3.474473] (pigpio) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/pigpio.dir/command.c.o\x1b[0m\n'}
+[3.523981] (pigpio) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C executable x_pigpiod_if2\x1b[0m\n'}
+[3.530799] (-) TimerEvent: {}
+[3.634479] (-) TimerEvent: {}
+[3.644851] (blade_controller) CommandEnded: {'returncode': 0}
+[3.719740] (pigpio) StdoutLine: {'line': b'[ 78%] Built target x_pigpiod_if2\n'}
+[3.720224] (blade_controller) JobEnded: {'identifier': 'blade_controller', 'rc': 0}
+[3.734620] (-) TimerEvent: {}
+[3.835197] (-) TimerEvent: {}
+[3.870222] (ps5_controller) StdoutLine: {'line': b'Installing ps5_publisher_node script to /home/mobot/ROS2/workspace/install/ps5_controller/lib/ps5_controller\n'}
+[3.871229] (ps5_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mobot/ROS2/workspace/build/ps5_controller/install.log'\n"}
+[3.935390] (-) TimerEvent: {}
+[3.989485] (ps5_controller) CommandEnded: {'returncode': 0}
+[4.018872] (ps5_controller) JobEnded: {'identifier': 'ps5_controller', 'rc': 0}
+[4.035497] (-) TimerEvent: {}
+[4.136086] (-) TimerEvent: {}
+[4.236980] (-) TimerEvent: {}
+[4.338391] (-) TimerEvent: {}
+[4.440726] (-) TimerEvent: {}
+[4.542094] (-) TimerEvent: {}
+[4.642748] (-) TimerEvent: {}
+[4.743171] (-) TimerEvent: {}
+[4.843627] (-) TimerEvent: {}
+[4.944034] (-) TimerEvent: {}
+[5.020520] (pigpio) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libpigpio.so\x1b[0m\n'}
+[5.044169] (-) TimerEvent: {}
+[5.102161] (pigpio) StdoutLine: {'line': b'[ 82%] Built target pigpio\n'}
+[5.144416] (-) TimerEvent: {}
+[5.153429] (pigpio) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/x_pigpio.dir/x_pigpio.c.o\x1b[0m\n'}
+[5.153772] (pigpio) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/pigpiod.dir/pigpiod.c.o\x1b[0m\n'}
+[5.244497] (-) TimerEvent: {}
+[5.290528] (pigpio) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C executable pigpiod\x1b[0m\n'}
+[5.344643] (-) TimerEvent: {}
+[5.349825] (pigpio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable x_pigpio\x1b[0m\n'}
+[5.376949] (pigpio) StdoutLine: {'line': b'[100%] Built target pigpiod\n'}
+[5.428790] (pigpio) StdoutLine: {'line': b'[100%] Built target x_pigpio\n'}
+[5.445468] (-) TimerEvent: {}
+[5.452932] (pigpio) CommandEnded: {'returncode': 0}
+[5.545578] (-) TimerEvent: {}
+[5.554691] (pigpio) JobProgress: {'identifier': 'pigpio', 'progress': 'install'}
+[5.571838] (pigpio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mobot/ROS2/workspace/build/pigpio'], 'cwd': '/home/mobot/ROS2/workspace/build/pigpio', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mobot', 'SSH_CLIENT': '192.168.86.75 61570 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'HOME': '/home/mobot', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-944b7005-eea5-4246-bb41-f0c81cd79f29.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](ROS2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mobot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/deactivate/bash:/home/mobot/ROS2/bin:/home/mobot/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ROS2)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc0fffaad3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/mobot/ROS2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mobot/ROS2/workspace/build/pigpio', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.86.75 61570 192.168.86.31 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mobot/ROS2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[5.587148] (pigpio) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.587624] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/libpigpio.so\n'}
+[5.588603] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/libpigpiod_if.so\n'}
+[5.588957] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/libpigpiod_if2.so\n'}
+[5.589522] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/bin/pig2vcd\n'}
+[5.589872] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/bin/pigpiod\n'}
+[5.590508] (pigpio) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mobot/ROS2/workspace/install/pigpio/bin/pigpiod" to ""\n'}
+[5.590642] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/bin/pigs\n'}
+[5.591045] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake\n'}
+[5.591217] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake\n'}
+[5.591385] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake\n'}
+[5.591523] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake\n'}
+[5.591730] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/include/pigpio.h\n'}
+[5.592095] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/include/pigpiod_if.h\n'}
+[5.592320] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/include/pigpiod_if2.h\n'}
+[5.592739] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/libpigpio.so.1\n'}
+[5.594618] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/libpigpiod_if.so.1\n'}
+[5.595343] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/libpigpiod_if2.so.1\n'}
+[5.596209] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/pig2vcd.1\n'}
+[5.596396] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/pigpiod.1\n'}
+[5.596527] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/pigs.1\n'}
+[5.596872] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man3/pigpio.3\n'}
+[5.597259] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man3/pigpiod_if.3\n'}
+[5.597604] (pigpio) StdoutLine: {'line': b'-- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man3/pigpiod_if2.3\n'}
+[5.645668] (-) TimerEvent: {}
+[5.745974] (-) TimerEvent: {}
+[5.814797] (pigpio) StderrLine: {'line': b'/home/mobot/ROS2/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[5.815075] (pigpio) StderrLine: {'line': b'!!\n'}
+[5.815180] (pigpio) StderrLine: {'line': b'\n'}
+[5.815270] (pigpio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.815358] (pigpio) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[5.815476] (pigpio) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[5.815565] (pigpio) StderrLine: {'line': b'        standards-based tools.\n'}
+[5.815653] (pigpio) StderrLine: {'line': b'\n'}
+[5.815735] (pigpio) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[5.815816] (pigpio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.815898] (pigpio) StderrLine: {'line': b'\n'}
+[5.815979] (pigpio) StderrLine: {'line': b'!!\n'}
+[5.816059] (pigpio) StderrLine: {'line': b'  self.initialize_options()\n'}
+[5.846071] (-) TimerEvent: {}
+[5.935536] (pigpio) StderrLine: {'line': b'/home/mobot/ROS2/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[5.935793] (pigpio) StderrLine: {'line': b'!!\n'}
+[5.935887] (pigpio) StderrLine: {'line': b'\n'}
+[5.935971] (pigpio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.936069] (pigpio) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[5.936156] (pigpio) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[5.936236] (pigpio) StderrLine: {'line': b'        standards-based tools.\n'}
+[5.936316] (pigpio) StderrLine: {'line': b'\n'}
+[5.936436] (pigpio) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[5.936528] (pigpio) StderrLine: {'line': b'        ********************************************************************************\n'}
+[5.936609] (pigpio) StderrLine: {'line': b'\n'}
+[5.936689] (pigpio) StderrLine: {'line': b'!!\n'}
+[5.936767] (pigpio) StderrLine: {'line': b'  self.initialize_options()\n'}
+[5.946136] (-) TimerEvent: {}
+[6.046366] (-) TimerEvent: {}
+[6.073123] (pigpio) StderrLine: {'line': b"error: Cannot update time stamp of directory '/home/mobot/ROS2/workspace/pigpio/pigpio.egg-info'\n"}
+[6.145442] (pigpio) CommandEnded: {'returncode': 0}
+[6.146371] (-) TimerEvent: {}
+[6.158177] (pigpio) JobEnded: {'identifier': 'pigpio', 'rc': 0}
+[6.159487] (-) EventReactorShutdown: {}

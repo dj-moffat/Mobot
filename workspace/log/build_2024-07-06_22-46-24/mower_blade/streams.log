@@ -1,0 +1,37 @@
+[1.647s] Invoking command in '/home/mobot/ROS2/workspace/src/mower_blade': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/mower_blade/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mower_blade build --build-base /home/mobot/ROS2/workspace/build/mower_blade/build install --record /home/mobot/ROS2/workspace/build/mower_blade/install.log --single-version-externally-managed install_data
+[2.047s] running egg_info
+[2.047s] creating ../../build/mower_blade/mower_blade.egg-info
+[2.073s] writing ../../build/mower_blade/mower_blade.egg-info/PKG-INFO
+[2.074s] writing dependency_links to ../../build/mower_blade/mower_blade.egg-info/dependency_links.txt
+[2.074s] writing entry points to ../../build/mower_blade/mower_blade.egg-info/entry_points.txt
+[2.074s] writing requirements to ../../build/mower_blade/mower_blade.egg-info/requires.txt
+[2.074s] writing top-level names to ../../build/mower_blade/mower_blade.egg-info/top_level.txt
+[2.075s] writing manifest file '../../build/mower_blade/mower_blade.egg-info/SOURCES.txt'
+[2.129s] reading manifest file '../../build/mower_blade/mower_blade.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/mower_blade/mower_blade.egg-info/SOURCES.txt'
+[2.131s] running build
+[2.131s] running build_py
+[2.131s] creating /home/mobot/ROS2/workspace/build/mower_blade/build
+[2.131s] creating /home/mobot/ROS2/workspace/build/mower_blade/build/lib
+[2.131s] creating /home/mobot/ROS2/workspace/build/mower_blade/build/lib/mower_blade
+[2.132s] copying mower_blade/mower_blade_node.py -> /home/mobot/ROS2/workspace/build/mower_blade/build/lib/mower_blade
+[2.132s] copying mower_blade/__init__.py -> /home/mobot/ROS2/workspace/build/mower_blade/build/lib/mower_blade
+[2.132s] running install
+[2.140s] running install_lib
+[2.167s] creating /home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages/mower_blade
+[2.168s] copying /home/mobot/ROS2/workspace/build/mower_blade/build/lib/mower_blade/mower_blade_node.py -> /home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages/mower_blade
+[2.168s] copying /home/mobot/ROS2/workspace/build/mower_blade/build/lib/mower_blade/__init__.py -> /home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages/mower_blade
+[2.168s] byte-compiling /home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages/mower_blade/mower_blade_node.py to mower_blade_node.cpython-312.pyc
+[2.169s] byte-compiling /home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages/mower_blade/__init__.py to __init__.cpython-312.pyc
+[2.169s] running install_data
+[2.169s] creating /home/mobot/ROS2/workspace/install/mower_blade/share/ament_index
+[2.170s] creating /home/mobot/ROS2/workspace/install/mower_blade/share/ament_index/resource_index
+[2.170s] creating /home/mobot/ROS2/workspace/install/mower_blade/share/ament_index/resource_index/packages
+[2.170s] copying resource/mower_blade -> /home/mobot/ROS2/workspace/install/mower_blade/share/ament_index/resource_index/packages
+[2.170s] copying package.xml -> /home/mobot/ROS2/workspace/install/mower_blade/share/mower_blade
+[2.170s] running install_egg_info
+[2.196s] Copying ../../build/mower_blade/mower_blade.egg-info to /home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages/mower_blade-0.0.0-py3.12.egg-info
+[2.198s] running install_scripts
+[2.377s] Installing mower_blade_node script to /home/mobot/ROS2/workspace/install/mower_blade/lib/mower_blade
+[2.377s] writing list of installed files to '/home/mobot/ROS2/workspace/build/mower_blade/install.log'
+[2.497s] Invoked command in '/home/mobot/ROS2/workspace/src/mower_blade' returned '0': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/mower_blade/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/mower_blade/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mower_blade build --build-base /home/mobot/ROS2/workspace/build/mower_blade/build install --record /home/mobot/ROS2/workspace/build/mower_blade/install.log --single-version-externally-managed install_data

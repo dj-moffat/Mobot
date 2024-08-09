@@ -1,0 +1,2 @@
+[console_scripts]
+blade_listener_node = blade_controller.blade_listener_node:main

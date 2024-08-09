@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_listener_node = wheel_controller.wheel_listener_node:main

@@ -1,0 +1,23 @@
+[1.187s] Invoking command in '/home/mobot/ROS2/workspace/src/custom_msg_types': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/custom_msg_types/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom_msg_types build --build-base /home/mobot/ROS2/workspace/build/custom_msg_types/build install --record /home/mobot/ROS2/workspace/build/custom_msg_types/install.log --single-version-externally-managed install_data
+[1.570s] running egg_info
+[1.596s] writing ../../build/custom_msg_types/custom_msg_types.egg-info/PKG-INFO
+[1.596s] writing dependency_links to ../../build/custom_msg_types/custom_msg_types.egg-info/dependency_links.txt
+[1.596s] writing requirements to ../../build/custom_msg_types/custom_msg_types.egg-info/requires.txt
+[1.597s] writing top-level names to ../../build/custom_msg_types/custom_msg_types.egg-info/top_level.txt
+[1.651s] reading manifest file '../../build/custom_msg_types/custom_msg_types.egg-info/SOURCES.txt'
+[1.652s] writing manifest file '../../build/custom_msg_types/custom_msg_types.egg-info/SOURCES.txt'
+[1.652s] running build
+[1.652s] running build_py
+[1.652s] copying msg/__init__.py -> /home/mobot/ROS2/workspace/build/custom_msg_types/build/lib/msg
+[1.653s] copying custom_msg_types/__init__.py -> /home/mobot/ROS2/workspace/build/custom_msg_types/build/lib/custom_msg_types
+[1.653s] running install
+[1.661s] running install_lib
+[1.687s] running install_data
+[1.687s] copying resource/custom_msg_types -> /home/mobot/ROS2/workspace/install/custom_msg_types/share/ament_index/resource_index/packages
+[1.688s] copying package.xml -> /home/mobot/ROS2/workspace/install/custom_msg_types/share/custom_msg_types
+[1.688s] running install_egg_info
+[1.714s] removing '/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages/custom_msg_types-0.0.0-py3.12.egg-info' (and everything under it)
+[1.715s] Copying ../../build/custom_msg_types/custom_msg_types.egg-info to /home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages/custom_msg_types-0.0.0-py3.12.egg-info
+[1.716s] running install_scripts
+[1.885s] writing list of installed files to '/home/mobot/ROS2/workspace/build/custom_msg_types/install.log'
+[1.961s] Invoked command in '/home/mobot/ROS2/workspace/src/custom_msg_types' returned '0': PS1=(ROS2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/mobot/ROS2/workspace/build/custom_msg_types/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/custom_msg_types/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/custom_msg_types build --build-base /home/mobot/ROS2/workspace/build/custom_msg_types/build install --record /home/mobot/ROS2/workspace/build/custom_msg_types/install.log --single-version-externally-managed install_data

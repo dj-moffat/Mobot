@@ -1,0 +1,27 @@
+[1.626s] Invoking command in '/home/mobot/ROS2/workspace/src/blade_controller': PYTHONPATH=/home/mobot/ROS2/workspace/build/blade_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/blade_controller build --build-base /home/mobot/ROS2/workspace/build/blade_controller/build install --record /home/mobot/ROS2/workspace/build/blade_controller/install.log --single-version-externally-managed install_data
+[2.035s] running egg_info
+[2.061s] writing ../../build/blade_controller/blade_controller.egg-info/PKG-INFO
+[2.064s] writing dependency_links to ../../build/blade_controller/blade_controller.egg-info/dependency_links.txt
+[2.064s] writing entry points to ../../build/blade_controller/blade_controller.egg-info/entry_points.txt
+[2.064s] writing requirements to ../../build/blade_controller/blade_controller.egg-info/requires.txt
+[2.064s] writing top-level names to ../../build/blade_controller/blade_controller.egg-info/top_level.txt
+[2.117s] reading manifest file '../../build/blade_controller/blade_controller.egg-info/SOURCES.txt'
+[2.119s] writing manifest file '../../build/blade_controller/blade_controller.egg-info/SOURCES.txt'
+[2.119s] running build
+[2.119s] running build_py
+[2.119s] copying blade_controller/blade_listener_node.py -> /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller
+[2.120s] copying blade_controller/__init__.py -> /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller
+[2.120s] running install
+[2.128s] running install_lib
+[2.155s] copying /home/mobot/ROS2/workspace/build/blade_controller/build/lib/blade_controller/blade_listener_node.py -> /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller
+[2.156s] byte-compiling /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller/blade_listener_node.py to blade_listener_node.cpython-312.pyc
+[2.156s] running install_data
+[2.157s] copying resource/blade_controller -> /home/mobot/ROS2/workspace/install/blade_controller/share/ament_index/resource_index/packages
+[2.158s] copying package.xml -> /home/mobot/ROS2/workspace/install/blade_controller/share/blade_controller
+[2.158s] running install_egg_info
+[2.184s] removing '/home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[2.184s] Copying ../../build/blade_controller/blade_controller.egg-info to /home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages/blade_controller-0.0.0-py3.12.egg-info
+[2.186s] running install_scripts
+[2.361s] Installing blade_listener_node script to /home/mobot/ROS2/workspace/install/blade_controller/lib/blade_controller
+[2.362s] writing list of installed files to '/home/mobot/ROS2/workspace/build/blade_controller/install.log'
+[2.485s] Invoked command in '/home/mobot/ROS2/workspace/src/blade_controller' returned '0': PYTHONPATH=/home/mobot/ROS2/workspace/build/blade_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mobot/ROS2/workspace/install/blade_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/blade_controller build --build-base /home/mobot/ROS2/workspace/build/blade_controller/build install --record /home/mobot/ROS2/workspace/build/blade_controller/install.log --single-version-externally-managed install_data

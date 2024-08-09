@@ -1,0 +1,126 @@
+[0.365s] Invoking command in '/home/mobot/ROS2/workspace/build/pigpio': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake /home/mobot/ROS2/workspace/pigpio -DCMAKE_INSTALL_PREFIX=/home/mobot/ROS2/workspace/install/pigpio
+[0.407s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.407s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[0.407s]   CMake.
+[0.407s] 
+[0.407s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.407s]   CMake that the project does not need compatibility with older versions.
+[0.408s] 
+[0.408s] [0m
+[0.607s] -- The C compiler identification is GNU 13.2.0
+[0.638s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.831s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.831s] -- Detecting C compile features
+[0.833s] -- Detecting C compile features - done
+[0.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.015s] -- Found Threads: TRUE  
+[1.023s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.024s]   The package name passed to `find_package_handle_standard_args` (rt) does
+[1.024s]   not match the name of the calling package (RT).  This can lead to problems
+[1.024s]   in calling code that expects `find_package` result variables (e.g.,
+[1.024s]   `_FOUND`) to follow a certain pattern.
+[1.025s] -- Found rt: /usr/lib/aarch64-linux-gnu/librt.a  
+[1.026s] Call Stack (most recent call first):
+[1.026s]   cmake/FindRT.cmake:28 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[1.026s]   CMakeLists.txt:8 (find_package)
+[1.026s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.026s] [0m
+[1.030s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.186s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.187s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.344s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[1.345s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.504s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.727s] -- Configuring done (1.3s)
+[1.750s] -- Generating done (0.0s)
+[1.750s] -- Build files have been written to: /home/mobot/ROS2/workspace/build/pigpio
+[1.757s] Invoked command in '/home/mobot/ROS2/workspace/build/pigpio' returned '0': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake /home/mobot/ROS2/workspace/pigpio -DCMAKE_INSTALL_PREFIX=/home/mobot/ROS2/workspace/install/pigpio
+[1.759s] Invoking command in '/home/mobot/ROS2/workspace/build/pigpio': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --build /home/mobot/ROS2/workspace/build/pigpio -- -j4 -l4
+[1.878s] [  4%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/pigpiod_if.c.o[0m
+[1.900s] [  8%] [32mBuilding C object CMakeFiles/pigs.dir/pigs.c.o[0m
+[1.913s] [ 13%] [32mBuilding C object CMakeFiles/pigpio.dir/pigpio.c.o[0m
+[1.917s] [ 17%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/pigpiod_if2.c.o[0m
+[2.222s] [ 21%] [32mBuilding C object CMakeFiles/pigs.dir/command.c.o[0m
+[2.455s] [ 26%] [32mBuilding C object CMakeFiles/pigpiod_if.dir/command.c.o[0m
+[2.474s] [ 30%] [32m[1mLinking C executable pigs[0m
+[2.595s] [ 30%] Built target pigs
+[2.603s] [ 34%] [32mBuilding C object CMakeFiles/pigpiod_if2.dir/command.c.o[0m
+[2.683s] [ 39%] [32mBuilding C object CMakeFiles/pig2vcd.dir/pig2vcd.c.o[0m
+[2.726s] [ 43%] [32m[1mLinking C shared library libpigpiod_if.so[0m
+[2.873s] [ 43%] Built target pigpiod_if
+[2.909s] [ 47%] [32mBuilding C object CMakeFiles/pig2vcd.dir/command.c.o[0m
+[2.931s] [ 52%] [32m[1mLinking C shared library libpigpiod_if2.so[0m
+[2.975s] [ 56%] [32mBuilding C object CMakeFiles/x_pigpiod_if.dir/x_pigpiod_if.c.o[0m
+[3.123s] [ 56%] Built target pigpiod_if2
+[3.216s] [ 60%] [32mBuilding C object CMakeFiles/x_pigpiod_if2.dir/x_pigpiod_if2.c.o[0m
+[3.251s] [ 65%] [32m[1mLinking C executable x_pigpiod_if[0m
+[3.310s] [ 69%] [32m[1mLinking C executable pig2vcd[0m
+[3.434s] [ 69%] Built target x_pigpiod_if
+[3.460s] [ 69%] Built target pig2vcd
+[3.464s] [ 73%] [32mBuilding C object CMakeFiles/pigpio.dir/command.c.o[0m
+[3.512s] [ 78%] [32m[1mLinking C executable x_pigpiod_if2[0m
+[3.708s] [ 78%] Built target x_pigpiod_if2
+[5.008s] [ 82%] [32m[1mLinking C shared library libpigpio.so[0m
+[5.090s] [ 82%] Built target pigpio
+[5.141s] [ 91%] [32mBuilding C object CMakeFiles/x_pigpio.dir/x_pigpio.c.o[0m
+[5.141s] [ 91%] [32mBuilding C object CMakeFiles/pigpiod.dir/pigpiod.c.o[0m
+[5.278s] [ 95%] [32m[1mLinking C executable pigpiod[0m
+[5.338s] [100%] [32m[1mLinking C executable x_pigpio[0m
+[5.365s] [100%] Built target pigpiod
+[5.417s] [100%] Built target x_pigpio
+[5.441s] Invoked command in '/home/mobot/ROS2/workspace/build/pigpio' returned '0': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --build /home/mobot/ROS2/workspace/build/pigpio -- -j4 -l4
+[5.561s] Invoking command in '/home/mobot/ROS2/workspace/build/pigpio': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --install /home/mobot/ROS2/workspace/build/pigpio
+[5.575s] -- Install configuration: ""
+[5.575s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/libpigpio.so
+[5.576s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/libpigpiod_if.so
+[5.577s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/libpigpiod_if2.so
+[5.577s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/bin/pig2vcd
+[5.577s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/bin/pigpiod
+[5.578s] -- Set non-toolchain portion of runtime path of "/home/mobot/ROS2/workspace/install/pigpio/bin/pigpiod" to ""
+[5.578s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/bin/pigs
+[5.579s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioTargets.cmake
+[5.579s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioTargets-noconfig.cmake
+[5.579s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioConfig.cmake
+[5.579s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/lib/cmake/pigpio/pigpioConfigVersion.cmake
+[5.579s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/include/pigpio.h
+[5.580s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/include/pigpiod_if.h
+[5.580s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/include/pigpiod_if2.h
+[5.580s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/libpigpio.so.1
+[5.582s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/libpigpiod_if.so.1
+[5.583s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/libpigpiod_if2.so.1
+[5.584s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/pig2vcd.1
+[5.584s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/pigpiod.1
+[5.584s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man1/pigs.1
+[5.584s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man3/pigpio.3
+[5.585s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man3/pigpiod_if.3
+[5.585s] -- Installing: /home/mobot/ROS2/workspace/install/pigpio/man/man3/pigpiod_if2.3
+[5.803s] /home/mobot/ROS2/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.803s] !!
+[5.803s] 
+[5.803s]         ********************************************************************************
+[5.803s]         Please avoid running ``setup.py`` directly.
+[5.803s]         Instead, use pypa/build, pypa/installer or other
+[5.803s]         standards-based tools.
+[5.803s] 
+[5.803s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.803s]         ********************************************************************************
+[5.803s] 
+[5.804s] !!
+[5.804s]   self.initialize_options()
+[5.923s] /home/mobot/ROS2/lib/python3.12/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.923s] !!
+[5.923s] 
+[5.924s]         ********************************************************************************
+[5.924s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.924s]         Instead, use pypa/build, pypa/installer or other
+[5.924s]         standards-based tools.
+[5.924s] 
+[5.924s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.924s]         ********************************************************************************
+[5.924s] 
+[5.924s] !!
+[5.924s]   self.initialize_options()
+[6.061s] error: Cannot update time stamp of directory '/home/mobot/ROS2/workspace/pigpio/pigpio.egg-info'
+[6.134s] Invoked command in '/home/mobot/ROS2/workspace/build/pigpio' returned '0': VIRTUAL_ENV_PROMPT=(ROS2) /usr/bin/cmake --install /home/mobot/ROS2/workspace/build/pigpio

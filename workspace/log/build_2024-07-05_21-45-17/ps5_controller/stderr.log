@@ -1,0 +1,5 @@
+  File "/home/mobot/ROS2/workspace/install/ps5_controller/lib/python3.12/site-packages/ps5_controller/ps5_publisher_node.py", line 20
+    self.joy_pub = self.create_publisher(, '/PS5/button_state', 10)  # Publisher for 'joy' topic
+                                         ^
+SyntaxError: invalid syntax
+

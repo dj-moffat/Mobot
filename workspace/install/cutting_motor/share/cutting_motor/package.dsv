@@ -1,0 +1,6 @@
+source;share/cutting_motor/hook/pythonpath.ps1
+source;share/cutting_motor/hook/pythonpath.dsv
+source;share/cutting_motor/hook/pythonpath.sh
+source;share/cutting_motor/hook/ament_prefix_path.ps1
+source;share/cutting_motor/hook/ament_prefix_path.dsv
+source;share/cutting_motor/hook/ament_prefix_path.sh
