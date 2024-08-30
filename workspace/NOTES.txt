@@ -23,3 +23,55 @@ def calculate_soc(voltage):
    
    
    30.8V remaining voltage = 20% remaining battery
+
+
+
+
+#####################################################
+
+
+
+
+BLUETOOTH CONNECT SCRIPT
+
+startup service
+    sudo nano /etc/systemd/system/bluetooth-connect.service
+
+bash script
+    /home/mobot/ROS2/workspace/src/bash_scripts/bluetooth_connect.sh
+
+
+
+
+#####################################################
+
+
+#####################################################
+
+
+
+
+ROS2 COMMANDS
+
+Location
+    /home/mobot/ROS2/workspace
+
+Source Command
+    source install/setup.bash
+
+Build Command
+    colcon build
+
+Activate Virtual Environment
+    source /home/mobot/ROS2/bin/activate
+
+Start Wheel Listener
+    ros2 run wheel_controller wheel_listener_node
+
+Start PS5 Controller Publisher
+    ros2 run ps5_controller ps5_publisher_node
+
+
+
+
+#####################################################

@@ -39,10 +39,15 @@ class WheelListenerNode(Node):
             # Smooth transition from dead zone
             adjusted_speed = (abs(self.speed) - dead_zone) / (1 - dead_zone)
             adjusted_speed = max(0, min(adjusted_speed, 1))  # Clamp between 0 and 1
-            
-            # Set direction
-            self.dir.value = 1 if self.speed > 0 else 0
-            
+        
+            # Set direction based on is_left
+            if self.is_left:
+                direction = 1 if self.speed > 0 else 0
+            else:
+                direction = 0 if self.speed > 0 else 1
+        
+            self.dir.value = direction
+        
             # Set PWM duty cycle
             self.pwm.value = adjusted_speed
 
