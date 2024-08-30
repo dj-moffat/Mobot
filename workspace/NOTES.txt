@@ -1,4 +1,18 @@
 
+#####################################################
+
+
+Copy files from mobot to my laptop
+
+rsync -avz -e ssh mobot@mobot:/home/mobot/ROS2/workspace/ /Users/djm/Git\ Projects/Mobot/workspace
+
+
+
+#####################################################
+
+
+
+
 def calculate_soc(voltage):
     if voltage >= 42:
         return 100
