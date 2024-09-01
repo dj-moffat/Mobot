@@ -71,10 +71,10 @@ Location
     /home/mobot/ROS2/workspace
 
 Source Command
-    source install/setup.bash
+    source /home/mobot/ROS2/workspace/install/setup.bash
 
 Build Command
-    colcon build
+    /home/mobot/ROS2/workspace/colcon build
 
 Activate Virtual Environment
     source /home/mobot/ROS2/bin/activate

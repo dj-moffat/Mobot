@@ -24,7 +24,7 @@ class WheelListenerNode(Node):
 
     def joy_callback(self, msg):
         if len(msg.axes) > self.joy_axis:
-            new_speed = msg.axes[self.joy_axis] * 0.5  # Reduce speed by 50%
+            new_speed = msg.axes[self.joy_axis] * 0.25  # Reduce speed by 75%
             self.speed_history.append(new_speed)
             self.speed = sum(self.speed_history) / len(self.speed_history)  # Average for smoothing
             self.update_motor()

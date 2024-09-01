@@ -2,6 +2,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
 from gpiozero import PWMOutputDevice
+import time
 
 class BladeListenerNode(Node):
     def __init__(self):
@@ -23,7 +24,10 @@ class BladeListenerNode(Node):
         if msg.buttons and msg.buttons[0] == 1:
             self.motor_on = not self.motor_on
             if self.motor_on:
-                self.motor.value = self.duty_cycle
+                for i in range(0, self.duty_cycle + 1):
+                    self.motor.value = i
+                    time.sleep(0.075)
+
                 self.get_logger().info(f"Motor ON at {self.duty_cycle*100}% speed")
             else:
                 self.motor.value = 0
